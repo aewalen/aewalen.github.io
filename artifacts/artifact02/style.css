@@ -11,7 +11,7 @@ body {
 .white {
   border: 1px solid black;
   width: 10%;
-  height: 60px;
+  height: 50px;
   background-color: white;
   float: left;
 }
@@ -19,7 +19,7 @@ body {
 .black {
   border: 1px solid black;
   width: 10%;
-  height: 60px;
+  height: 50px;
   background-color: #787878;
   float: left;
 }
@@ -32,10 +32,9 @@ body {
 }
 
 #container {
-  margin-top: 20%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%;
+  margin: auto;
+  width: 80%;
+  padding: 10%;
   align-content: center;
 }
 
