@@ -33,6 +33,7 @@ body {
   margin: auto;
   padding-top: 10%;
   width: 50%;
+  align-content: center;
 }
 
 #title {
