@@ -15,8 +15,8 @@ let msg = "<h2>Multiplication Table<h2><br / >"; // Message
 
 // Do multiplication
 while (i < 10) {
-  value1 = int(prompt("Enter a number from 0 - 10."));
-  value2 = int(prompt("Enter another number from 0 - 10."));
+  value1 = parseInt(prompt("Enter a number from 0 - 10."));
+  value2 = parseInt(prompt("Enter another number from 0 - 10."));
   msg += value1 + " x " + value2 + " = " + value1 * value2 + "<br / >";
   i++;
 }
