@@ -1,0 +1,88 @@
+body {
+  background-image: url("/images/m04/floral-background-design.webp");
+}
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
+
+#Title {
+  font-family: "IsabellaSansRegular";
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#content {
+  overflow: auto;
+}
+
+#nav,
+#footer {
+  margin: 1%;
+}
+
+.body-content {
+  background-color: #efefef;
+  width: 98%;
+  height: 50vh;
+  float: left;
+  margin: 1%;
+}
+
+.form {
+ text-align: left;
+ margin-left: 10%;
+ font-size: large;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: large;
+}
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  text-align: left;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #5768ff;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  margin-top: 1%;
+  cursor: pointer;
+  font-size: medium;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+#nav,
+#footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+
+.article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
