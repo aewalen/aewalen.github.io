@@ -12,7 +12,7 @@ function Hotel(name, rooms, booked) {
 // Create two hotel objects
 var quayHotel = new Hotel('Quay', 40, 25);
 var parkHotel = new Hotel('Park', 120, 77);
-const sunsetHotel = new Hotel('Sunset', 76, 0);
+var sunsetHotel = new Hotel('Sunset', 76, 0);
 
 
 // Update the HTML for the page
@@ -29,7 +29,7 @@ elHotel2.textContent = details2;
 var details3 = sunsetHotel.name + ' rooms: ';
     details3 += sunsetHotel.checkAvailability();
 var elHotel3 = document.getElementById('hotel3');
-elHotel2.textContent = details3;
+elHotel3.textContent = details3;
 
 /* 
 NOTE: textContent does not work in IE8 or earlier
