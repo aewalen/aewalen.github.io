@@ -115,7 +115,7 @@ function validateZipCode() {
   const country = document.getElementById("Country").value;
   const zip = document.getElementById("ZipCode").value;
 
-  return country == "US" && (zip == "" || parseInt(zip) > 5)
+  return country == "US" && (zip == "" || zip.length > 5)
     ? "<p>ZipCode is required for US</p>"
     : "";
 }
