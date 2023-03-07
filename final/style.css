@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/midterm/catbackground.webp");
+  background-image: url("/images/final/catbackground.webp");
 }
 
 * {
@@ -22,6 +22,10 @@ body {
 
 #content {
   overflow: auto;
+}
+
+#footer {
+  text-align: center;
 }
 
 #nav,
@@ -62,6 +66,7 @@ textarea {
   resize: none;
   text-align: left;
 }
+
 input[type=button], input[type=submit], input[type=reset] {
   background-color: #5768ff;
   border: none;
@@ -104,6 +109,11 @@ input[type=button], input[type=submit], input[type=reset] {
   margin-right: 1%;
   margin-top: 1%;
   margin-left: 1%;
+}
+
+#para {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 li {
