@@ -8,7 +8,7 @@
       href="https://fontlibrary.org//face/isabella-sans"
       type="text/css"
     />
-    <script src="final.js"></script>
+    <script defer src="final.js"></script>
     <title>PROG 109 Midterm</title>
   </head>
   <body>
@@ -33,21 +33,22 @@
         <form action="thanks.html" method="get" name="contactMe" class="form" onsubmit="return validateContact()">
           <label>
             Name: <br>
-            <input type="text" name="name" />
+            <input type="text" name="name" id="name"/>
           </label>
           <br />
           <label>
             Email:<br>
-            <input type="text" name="email" />
+            <input type="text" name="email" id="email"/>
           </label>
           <br>
           <label>
             Comment: <br />
-            <textarea name="comment"></textarea>
+            <textarea name="comment" id="comment"></textarea>
           </label>
           <br>
           <input type="submit" value="Send Comment">
         </form>
+        <div id="errormessages"></div>
       </div>
     </div>
     <div id="footer">

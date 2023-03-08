@@ -40,6 +40,17 @@ body {
   float: left;
   margin: 1%;
 }
+.extended {
+  background-color: #efefef;
+  width: 98%;
+  height: 75vh;
+  float: left;
+  margin: 1%;
+}
+
+#errormessages {
+  color: rgb(237, 94, 94);
+}
 
 .form {
  text-align: left;
